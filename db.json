@@ -1,0 +1,27 @@
+[
+  {
+    "name": "SDG.One",
+    "sdg1": 1,
+    "sdg2": 2,
+    "sdg3": 3,
+    "Mission": "Giving money to poor people.",
+    "Need": "Looking for money."
+  },
+  {
+    "name": "slakov",
+    "sdg1": 0,
+    "sdg2": 0,
+    "sdg3": 0,
+    "Mission": "Writing smart contracts on blockchain.",
+    "Need": "Catering company to provide food for employees."
+  },
+  {
+    "name": "SunEdison",
+    "sdg1": 7,
+    "sdg2": 0,
+    "sdg3": 0,
+    "Mission": "Builduing solar power plants to provide sustainable energy source",
+    "Need": "Builduing company for installation of solar panels in Sudan."
+  }
+
+]

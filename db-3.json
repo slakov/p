@@ -1,0 +1,74 @@
+[
+  {
+    "name": "SDG.One",
+    "sdg1": 1,
+    "sdg2": 2,
+    "sdg3": 3,
+    “Partnefy Mission": “donating funds to poor people.",
+    “Value Needed”: “NGO in Africa working with Poor children, local office, operations, staff.”
+    “Value Added”: “funding, network and reputation.”
+  
+},
+  {
+    "name": "slakov",
+    "sdg1": 0,
+    "sdg2": 0,
+    "sdg3": 0,
+    “Partnefy Mission": "Writing smart contracts on blockchain.",
+    “Value Needed”: "Catering company to provide food for empolles."
+    “Value Added”: “blockchain know-how, technical know-how, consultancy, global presence.”
+},
+  {
+    "name": "SunEdison",
+    "sdg1": 7,
+    "sdg2": 0,
+    "sdg3": 0,
+    “Partnefy Mission": "Builduing solar power plants to provide sustainable energy source.”,
+    “Value Need": "Building company for installation of solar panels in Sudan."
+    “Value Added”: “funding, technology, business contracts.”
+},
+  {
+    "name": “Novartis”,
+    "sdg1": 3,
+    "sdg2": 0,
+    "sdg3": 0,
+    “Partnefy Mission": "to develop innovative products in growing areas of healthcare where we can make a real difference. We focus on patented medicines, generic medicines and eye care segments where we have the innovation power and global scale necessary to compete effectively.",
+    “Value Needed”: “specialist biotech company in eye disease, eye therapy, treatments with global presence.”
+    “Value Added”: “funding, technology, global presence, business performance, growth, Access to new markets.”
+},
+  {
+    "name": “Alcon”,
+    "sdg1": 3,
+    "sdg2": 0,
+    "sdg3": 0,
+    “Partnefy Mission": "To identify new potential partnerships, Alcon R&D utilizes a well-defined pipeline strategy that begins with confirmation of the unmet needs in ophthalmology.",
+    “Value Needed”: “hospitals specialized in Eye disease, Health Care organizations in India.”
+    “Value Added”: “funding, technology, global presence, business performance, growth, Access to new markets.”
+},
+  { 
+    "name": “FC Barcelona”,
+    "sdg1": 1,
+    "sdg2": 4,
+    "sdg3": 0,
+    “Partnefy Mission": “to partner with children Organization that works in education around the world.”,
+    “Value Needed”: “ global NGO public Organization that focuses on children education.”
+    “Value Added”: “funding, donations for educational programs in developing countries.”
+},
+  { 
+ "name": “Roche”,
+    "sdg1": 3,
+    "sdg2": 0,
+    "sdg3": 0,
+    “Partnefy Mission": “to develop best diagnostics equipment and Technology for    bloodbanks.”,
+    “Value Needed”: “Japanese medical technology company, diagnostics.”
+    “Value Added”: “Access to European markets, comercial deal, Contacts, purchasing, R&Ds.”
+  { 
+ "name": “Think Yellow”,
+    "sdg1": 5,
+    "sdg2": 0,
+    "sdg3": 0,
+    “Partnefy Mission": “to fund projects and social entrepreneurs that Focus on vender equality.”,
+    “Value Needed”: “impact investment funding for vender causes .”
+    “Value Added”: “human rights know-how.”
+
+]
