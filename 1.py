@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import random
 from sklearn.feature_extraction.text import TfidfVectorizer
-
+import numpy as np
 
 # Sanity check that python3
 print ("Magic starts");
@@ -33,6 +33,18 @@ for i in range(last):
         vect = TfidfVectorizer(min_df=1)
         tfidf = vect.fit_transform([firstCompany["added"], secondCompany["added"]])
         res = (tfidf * tfidf.T).A
-        print(res)
+        resFlat = res.ravel()
 
+        # We dont need ones
+        for index, value in enumerate(resFlat):
+            if np.round(value) == 1:
+                resFlat[index] = 0.0
+
+        # Add pScore
+        thisScore = np.round(max(resFlat)*100)
+        pScore.append(thisScore)
+
+
+outputTable = pd.DataFrame({"cmp1": c1, "cmp2": c2, "pScore": pScore})
+outputTable.to_csv("out.csv")
 #print(c1)
