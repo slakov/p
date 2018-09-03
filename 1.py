@@ -31,7 +31,9 @@ for i in range(last):
         #secondCompany["name"] + "\t\t" + str(random.randint(50,99)) +"%")
 
         vect = TfidfVectorizer(min_df=1)
-        tfidf = vect.fit_transform([firstCompany["added"], secondCompany["added"]])
+        tfidf = vect.fit_transform([firstCompany["added"], secondCompany["added"],
+        firstCompany["needed"], secondCompany["needed"], firstCompany["mission"],
+        secondCompany["mission"]])
         res = (tfidf * tfidf.T).A
         resFlat = res.ravel()
 
