@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Partnefy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container-fluid">
+    <h1>Partnefy</h1>
+    <h4>Describe the value need for which you are looking for a partner:</h4>
+    <textarea rows="3" cols="90" placeholder="Describe your needs here..."></textarea>
+  </div>
+
+  <button type="button">Click Me!</button>
+
+
+  <h5> Suggested partner </h5>
+  <div id="res">
+
+  </div>
+
+</body>
+
+<script>
+
+var json = {
+  "name": "slakov",
+  "added": "blockchain know-how, technical know-how, consultancy, global presence."
+};
+
+var text = JSON.stringify(json);
+document.getElementById("res").innerHTML = text
+
+</script>
+
+</html>
