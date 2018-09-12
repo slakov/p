@@ -8,7 +8,7 @@ import numpy as np
 print ("Magic starts");
 
 # Read data from JSON
-with open("db-3.json") as datafile:
+with open("dbtest.json") as datafile:
     data = json.load(datafile)
     d = pd.DataFrame(data)
     df = d.set_index("name", drop = False)
@@ -31,9 +31,13 @@ for i in range(last):
         #secondCompany["name"] + "\t\t" + str(random.randint(50,99)) +"%")
 
         vect = TfidfVectorizer(min_df=1)
+        # tfidf = vect.fit_transform([firstCompany["added"], secondCompany["added"],
+        # firstCompany["needed"], secondCompany["needed"], firstCompany["mission"],
+        # secondCompany["mission"]])
+
         tfidf = vect.fit_transform([firstCompany["added"], secondCompany["added"],
-        firstCompany["needed"], secondCompany["needed"], firstCompany["mission"],
-        secondCompany["mission"]])
+        firstCompany["needed"], secondCompany["needed"]])
+
         res = (tfidf * tfidf.T).A
         resFlat = res.ravel()
 

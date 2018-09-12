@@ -1,29 +1,11 @@
-cmp1,cmp2,"PScore, %"
-slakov,Think Yellow,46
-SunEdison,Novartis,39
-SunEdison,Alcon,38
-Novartis,FC Barcelona,35
-slakov,FC Barcelona,32
-Alcon,FC Barcelona,32
-SDG.One,FC Barcelona,31
-SunEdison,FC Barcelona,31
-FC Barcelona,Roche,31
-FC Barcelona,Think Yellow,30
-Novartis,Alcon,26
-slakov,Roche,23
-Roche,Think Yellow,23
-SDG.One,Roche,22
-Novartis,Roche,21
-Alcon,Roche,21
-slakov,SunEdison,20
-SunEdison,Roche,20
-SDG.One,SunEdison,18
-SunEdison,Think Yellow,17
-Novartis,Think Yellow,17
-SDG.One,Think Yellow,16
-slakov,Alcon,13
-SDG.One,slakov,12
-SDG.One,Novartis,12
-SDG.One,Alcon,11
-slakov,Novartis,10
-Alcon,Think Yellow,9
+,cmp1,cmp2,pScore
+0,Think Yellow,Unicef,18.0
+1,Think Yellow,Fecinu,28.0
+2,Think Yellow,Think Blue,35.0
+3,Think Yellow,Asocial,22.0
+4,Unicef,Fecinu,28.0
+5,Unicef,Think Blue,23.0
+6,Unicef,Asocial,30.0
+7,Fecinu,Think Blue,25.0
+8,Fecinu,Asocial,21.0
+9,Think Blue,Asocial,11.0
