@@ -13,10 +13,10 @@
   <div class="container-fluid">
     <h1>Partnefy</h1>
     <h4>Describe the value need for which you are looking for a partner:</h4>
-    <textarea rows="3" cols="90" placeholder="Describe your needs here..."></textarea>
+    <textarea id="need" rows="3" cols="90" placeholder="Describe your needs here..."></textarea>
   </div>
 
-  <button type="button">Click Me!</button>
+  <button type="button" onclick="myFunction()">Click Me!</button>
 
 
   <h5> Suggested partner </h5>
@@ -27,14 +27,14 @@
 </body>
 
 <script>
+function myFunction() {
 
-var json = {
-  "name": "slakov",
-  "added": "blockchain know-how, technical know-how, consultancy, global presence."
-};
+  $.get('http://127.0.0.1:5000/api?mission=' + document.getElementById("need").value, function(response) {
+  document.getElementById("res").innerHTML = response;
+  });
 
-var text = JSON.stringify(json);
-document.getElementById("res").innerHTML = text
+}
+
 
 </script>
 
